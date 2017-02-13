@@ -2,6 +2,8 @@
 
 ### 4.0.0 (Next)
 * [#174](https://github.com/alexa-js/alexa-app/pull/174): Always enfore strict header checking - [@tejashah88](https://github.com/tejashah88).
+* [#134](https://github.com/alexa-js/alexa-app/issues/134): Asynchronous support purely through Promises and removing `return false`/callback functionality - [@ajcrites](https://github.com/ajcrites).
+* [#22](https://github.com/alexa-js/alexa-app/issues/22): Asynchronous support for `pre` and `post` - [@ajcrites](https://github.com/ajcrites).
 * Your contribution here.
 
 ### 3.1.0 (February 13, 2017)

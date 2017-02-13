@@ -424,7 +424,9 @@ alexa.app = function(name) {
         }
       }
     })
-    .then(response.send)
+    .then(function () {
+      return response.send();
+    })
     .catch(function(e) {
       if (typeof self.error == "function") {
         self.error(e, request, response);
